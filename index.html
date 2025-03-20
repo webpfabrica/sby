@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клан СБУ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="image.png" alt="War Tycoon Logo">
+                <h1>СБУ Клан</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#about">О клане</a></li>
+                    <li><a href="#raid">Рейды</a></li>
+                    <li><a href="application.html">Вступить</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Присоединяйтесь к элите СБУ</h2>
+            <p>Наш клан объединяет лучших игроков, стремящихся к победе и совершенствованию своих навыков. Станьте частью нашей команды и вместе мы будем доминировать на поле боя!</p>
+            <a href="application.html" class="cta-button">Подать заявку</a>
+            <a href="#raid" class="cta-button">Рейд клан на клан</a>
+        </div>
+    </section>
+    
+    <!-- Остальной контент страницы остается без изменений -->
+    
+    <section class="features-section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Почему стоит выбрать наш клан</h2>
+                <p>Мы предлагаем уникальные преимущества для всех участников</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Топовые рейтинги</h3>
+                    <p>Наш клан стабильно удерживает высокие позиции в глобальных рейтингах игры War Tycoon.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Сплоченное сообщество</h3>
+                    <p>У нас дружный коллектив, готовый помочь новичкам и поддержать в сложных ситуациях.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Ресурсы и поддержка</h3>
+                    <p>Члены клана получают ресурсы, тактическую поддержку и советы от опытных игроков.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Регулярные тренировки</h3>
+                    <p>Мы проводим регулярные тренировки для повышения боевых навыков и координации команды.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏅</div>
+                    <h3>Участие в турнирах</h3>
+                    <p>Наш клан регулярно участвует в турнирах и клановых войнах с достойными наградами.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Быстрый рост</h3>
+                    <p>Благодаря нашей системе наставничества новички быстро растут и развиваются в игре.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Галерея клана</h2>
+                <p>Фотографии наших достижений и моменты из игры</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="1.png" alt="War Tycoon Screenshot 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="2.png" alt="War Tycoon Screenshot 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="3.png" alt="War Tycoon Screenshot 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="4.png" alt="War Tycoon Screenshot 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="5.png" alt="War Tycoon Screenshot 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="6.png" alt="War Tycoon Screenshot 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="7.png" alt="War Tycoon Screenshot 7">
+                </div>
+                <div class="gallery-item">
+                    <img src="8.png" alt="War Tycoon Screenshot 8">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="raid-section" id="raid">
+        <div class="raid-content">
+            <h2>Рейд клан на клан</h2>
+            <p>Участвуйте в захватывающих битвах между кланами! Собирайте свою команду, разрабатывайте стратегию и сражайтесь за честь клана. Победители получат эксклюзивные награды и признание.</p>
+            <a href="raidclan.html" class="cta-button">Зарегистрировать команду</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://discord.gg/4kTeDjEJBR" title="Discord">Discord</a>
+                <a href="https://t.me/sbyclan" title="Telegram">Telegram</a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Клан СБУ. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Плавная прокрутка к якорям
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
